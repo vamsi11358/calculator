@@ -25,7 +25,7 @@ export default function Calculator(){
         <>
         <h1>React Calculator</h1>
         <div className="outer">
-        <input value={display}/>
+        <input value={display} type='text'/>
         <div>
         {result}
         </div>
@@ -49,7 +49,7 @@ export default function Calculator(){
         <button onClick={() => handleClick('.')}>.</button>
         </div>
         </div>
-        
+
         </>
     )
 }
